@@ -19,7 +19,19 @@
 }
 
 
-/** section about */
+/** sections */
+
+
+/** footer */
+#info{
+    min-height: 300px;
+}
+#copyight{
+    min-height: 200px;
+}
+
+
+/** my style color  */
 
 #contact-me .ms-h,
 #about .ms-h,
@@ -28,14 +40,25 @@
     min-height:100px;
     padding: 2px;
 }
-
 [class*='col']{
-    border: 5px dotted #bada55;
-    min-height:360px;
-    padding: 2px;
+    border: 2px dotted #bada55;
+    min-height:260px;
+    padding:2px;
 }
 
+[class*='col'] [class*='col']{
+    border: 2px dotted #1abc9b;
+    min-height:200px;
+   
+}
+
+#copyright [class*='col']{
+    border: 5px dotted blue;
+    min-height:50px;
+    padding: 2px;
+}
 /* Font */
+#main-footer p,
 #main-header p,
 #jumbotron p{
     color:#fff;
@@ -46,6 +69,9 @@
 }
 .ms-p-md{
     padding: 60px 0;
+}
+.ms-p-sm{
+    padding: 30px 0;
 }
 /*! background  color*/
 .db-bg{
