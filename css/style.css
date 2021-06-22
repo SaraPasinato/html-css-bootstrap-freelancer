@@ -1,5 +1,24 @@
+/*? header */
+#main-header{
+    min-height: 90px;
+}
+#jumbotron{
+    min-height: 500px;
+}
 
-
+#jumbotron .container{
+    max-width: 439px;
+}
+#jumbotron .container .row{
+    min-height: 500px;
+}
+[class*='row']{
+    min-height: 70px;
+}
+/* Font */
+p{
+    color:#fff;
+}
 /*! background  color*/
 .db-bg{
     background-color: #2b3d4f;
@@ -12,4 +31,8 @@
 }
 .g-bg{
     background-color: #1abc9b;
+}
+
+.border-white{
+    border: 5px dotted #bada55;
 }
