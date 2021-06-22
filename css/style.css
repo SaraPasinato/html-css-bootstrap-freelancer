@@ -3,10 +3,13 @@
     min-height: 90px;
 }
 
+#about,
 #jumbotron{
     min-height: 500px;
 }
 /*? main */
+
+/** section portfolio */
 #portfolio{
     min-height: 800px;
    
@@ -14,7 +17,12 @@
 #jumbotron .row{
     min-height: 500px;
 }
-#portfolio .ms-portfolio-h{
+
+
+/** section about */
+
+#about .ms-h,
+#portfolio .ms-h{
     border: 5px dotted blue;
     min-height:100px;
     padding: 2px;
@@ -34,6 +42,9 @@
 /*! padding */
 .ms-p-lg{
     padding: 90px 0;
+}
+.ms-p-md{
+    padding: 60px 0;
 }
 /*! background  color*/
 .db-bg{
