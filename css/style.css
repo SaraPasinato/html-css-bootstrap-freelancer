@@ -2,18 +2,18 @@
 #main-header{
     min-height: 90px;
 }
+#portfolio,
 #jumbotron{
     min-height: 500px;
 }
 
-
-#jumbotron .container .row{
+#jumbotron .row{
     min-height: 500px;
-   ;
 }
 [class*='col']{
-    min-height: 70px;
+    border: 5px dotted #bada55;
 }
+
 /* Font */
 p{
     color:#fff;
