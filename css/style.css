@@ -21,6 +21,7 @@
 
 /** section about */
 
+#contact-me .ms-h,
 #about .ms-h,
 #portfolio .ms-h{
     border: 5px dotted blue;
