@@ -6,13 +6,12 @@
     min-height: 500px;
 }
 
-#jumbotron .container{
-    max-width: 439px;
-}
+
 #jumbotron .container .row{
     min-height: 500px;
+   ;
 }
-[class*='row']{
+[class*='col']{
     min-height: 70px;
 }
 /* Font */
