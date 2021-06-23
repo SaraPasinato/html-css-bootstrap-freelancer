@@ -44,6 +44,17 @@
    
 }
 
+/*? contact */
+#contact-me .form-control{
+    border-radius: 0;
+    border:0;
+    border-bottom: 1px solid #2b3d4f;
+}
+#contact-me .form-control:hover{
+    border-radius: 0;
+    border:0;
+    border-bottom: 2px solid #1d83c1;
+}
 /*? footer */
 #info{
     min-height: 30vh;
@@ -51,34 +62,6 @@
 #copyight{
     min-height: 10vh;
 }
-
-
-/* my style color 
-
-#contact-me .ms-h,
-#about .ms-h,
-#portfolio .ms-h{
-    border: 5px dotted blue;
-    min-height:100px;
-    padding: 2px;
-}
-[class*='col']{
-    border: 2px dotted #bada55;
-    min-height:260px;
-    padding:2px;
-}
-
-[class*='col'] [class*='col']{
-    border: 2px dotted #1abc9b;
-    min-height:200px;
-   
-}
-
-#copyright [class*='col']{
-    border: 5px dotted blue;
-    min-height:50px;
-    padding: 2px;
-} */
 
 /* Font */
 #main-footer p,
@@ -100,6 +83,9 @@
 /*! background  color*/
 .db-bg{
     background-color: #2b3d4f;
+}
+.text-db{
+    color: #2b3d4f;
 }
 .b-bg{
     background-color: #3a536d;
@@ -126,3 +112,30 @@
 @media screen and (min-width: 768px ) {
    
 }
+
+/* my style color  1/2
+
+#contact-me .ms-h,
+#about .ms-h,
+#portfolio .ms-h{
+    border: 5px dotted blue;
+    min-height:100px;
+    padding: 2px;
+}
+[class*='col']{
+    border: 2px dotted #bada55;
+    min-height:260px;
+    padding:2px;
+}
+
+[class*='col'] [class*='col']{
+    border: 2px dotted #1abc9b;
+    min-height:200px;
+   
+}
+
+#copyright [class*='col']{
+    border: 5px dotted blue;
+    min-height:50px;
+    padding: 2px;
+} */
