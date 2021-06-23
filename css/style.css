@@ -1,6 +1,6 @@
 /*? header */
 #main-header{
-    min-height: 10vh;
+    min-height: 9vh;
 }
 
 
@@ -33,7 +33,7 @@
 }
 
 
-/** my style color  */
+/* my style color 
 
 #contact-me .ms-h,
 #about .ms-h,
@@ -58,13 +58,15 @@
     border: 5px dotted blue;
     min-height:50px;
     padding: 2px;
-}
+} */
+
 /* Font */
 #main-footer p,
 #main-header p,
 #jumbotron p{
     color:#fff;
 }
+
 /*! padding */
 .ms-p-lg{
     padding: 90px 0;
