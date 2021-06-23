@@ -8,6 +8,10 @@
 #jumbotron{
     min-height: 50vh;
 }
+
+img{
+    width: 40%;
+}
 /*? main */
 
 /** section portfolio */
@@ -16,12 +20,7 @@
     min-height: 80vh;
    
 }
-#jumbotron .row{
-    min-height: 50%;
-}
 
-
-/** sections */
 
 
 /** footer */
@@ -93,4 +92,13 @@
 
 .border-white{
     border: 5px dotted #bada55;
+}
+
+/*! Media query */
+
+@media screen and (max-width: 575.99px ) {
+    
+  #jumbotron h4{
+        font-size: 1em;
+    }
 }
