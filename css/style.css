@@ -12,6 +12,15 @@ img{
     background-color: #f8f8f8;
     margin: 10px 0;
 }
+.star-dark:after,
+.star-dark:before{
+    content:'';
+    display: inline-block;
+    min-height: 3px;
+    min-width: 20%;
+    background-color: #2b3d4f;
+    margin: 10px 0;
+}
 
 /*? header */
 #main-header{
