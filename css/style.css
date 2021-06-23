@@ -1,17 +1,29 @@
+/* Utils */
+img{
+    width: 40%;
+}
+
+.star:after,
+.star:before{
+    content:'';
+    display: inline-block;
+    min-height: 3px;
+    min-width: 30%;
+    background-color: #f8f8f8;
+    margin: 10px 0;
+}
+
 /*? header */
 #main-header{
     min-height: 9vh;
 }
-
 
 #about,
 #jumbotron{
     min-height: 50vh;
 }
 
-img{
-    width: 40%;
-}
+
 /*? main */
 
 /** section portfolio */
@@ -21,9 +33,7 @@ img{
    
 }
 
-
-
-/** footer */
+/*? footer */
 #info{
     min-height: 30vh;
 }
