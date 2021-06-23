@@ -80,7 +80,7 @@
 .ms-p-sm{
     padding: 30px 0;
 }
-/*! background  color*/
+/*! background  color & colors*/
 .db-bg{
     background-color: #2b3d4f;
 }
@@ -95,6 +95,9 @@
 }
 .g-bg{
     background-color: #1abc9b;
+}
+.text-g{
+    color: #1abc9b;
 }
 
 .border-white{
