@@ -1,21 +1,23 @@
 /*? header */
 #main-header{
-    min-height: 90px;
+    min-height: 10vh;
 }
+
 
 #about,
 #jumbotron{
-    min-height: 500px;
+    min-height: 50vh;
 }
 /*? main */
 
 /** section portfolio */
+#contact-me,
 #portfolio{
-    min-height: 800px;
+    min-height: 80vh;
    
 }
 #jumbotron .row{
-    min-height: 500px;
+    min-height: 50%;
 }
 
 
@@ -24,10 +26,10 @@
 
 /** footer */
 #info{
-    min-height: 300px;
+    min-height: 30vh;
 }
 #copyight{
-    min-height: 200px;
+    min-height: 10vh;
 }
 
 
