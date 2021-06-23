@@ -1,4 +1,4 @@
-/* Utils */
+/*? Utils */
 #jumbotron img{
     width: 40%;
 }
@@ -63,14 +63,7 @@
     min-height: 10vh;
 }
 
-/* Font */
-#main-footer p,
-#main-header p,
-#jumbotron p{
-    color:#fff;
-}
-
-/*! padding */
+/*! my padding  1/2 */
 .ms-p-lg{
     padding: 90px 0;
 }
@@ -112,9 +105,7 @@
         font-size: 1em;
     }
 }
-@media screen and (min-width: 768px ) {
-   
-}
+
 
 /* my style color  1/2
 
